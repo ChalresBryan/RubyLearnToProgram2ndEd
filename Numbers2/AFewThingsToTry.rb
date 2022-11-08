@@ -1,4 +1,3 @@
-
 # Hours in a year. How many hours are in a year?
 hoursInAYear = 24*365
 print "The amount of hours in a year are : "
@@ -17,10 +16,13 @@ print "My age in seconds : "
 print ageInSeconds
 print "\n"
 
+#authorAge
 authorAge = (1025*1000*1000) / (60*60*24*365)
 print "Our dear author’s age is : "
 print authorAge
 print "\n"
+
+
 
 =begin
 mulit line comment
