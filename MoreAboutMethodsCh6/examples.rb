@@ -38,14 +38,34 @@ puts(str.center(line_width))
 puts(str.rjust( line_width))
 puts(str.ljust(line_width/2) + str.rjust(line_width/2))
 
-#6.2 A Few Things to Try
-=begin
-Angry boss. Write an angry boss program that rudely asks what
-you want. Whatever you answer, the angry boss should yell it
-back to you and then fire you. For example, if you type in I want
-a raise, it should yell back like this:
-=end
+puts 5**2
+puts 5**0.5
+puts 7/3
+puts 7%3
+puts 365%7
 
-puts "What do you want?"
-userInput = gets.chomp()
-puts "WHADDAYA MEAN " + userInput + "?!? YOU'RE FIRED!!"
+puts (5-2).abs
+puts (2-5).abs
+
+puts rand
+puts rand
+puts rand
+puts(rand(100)) # 0 - 99
+puts(rand(100))
+puts(rand(100))
+puts(rand(1))
+puts(rand(1))
+puts(rand(1))
+puts(rand(9999999999999999999999999999999999999))
+puts('The weatherman said there is a')
+puts(rand(101).to_s + '% chance of rain,')
+puts('but you can never trust a weatherman.' )
+
+puts(Math::PI)
+puts(Math::E)
+puts(Math.cos(Math::PI/3))
+puts(Math.tan(Math::PI/4))
+puts(Math.log(Math::E**2))
+puts((1 + Math.sqrt(5))/2)
+
+
