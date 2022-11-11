@@ -25,3 +25,5 @@ puts pharse.length()
 
 
 puts pharse.include? "Academy"
+puts pharse[0,3]
+puts pharse.index("A")
