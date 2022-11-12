@@ -1,27 +1,28 @@
-def sort some_array # This "wraps" recursive_sort.
+# This "wraps" recursive_sort.
+def sort some_array 
     recursive_sort(some_array, []) 
 end
 
 def recursive_sort unsorted_array, sorted_array
     # Your fabulous code goes here.
     smallest = unsorted_array[0] #the word that would come first in the dictionary
-    smallestIndex = 0
+    
     i = 0
-
     unsorted_array.each do
         if unsorted_array[i] < smallest 
             smallest = unsorted_array[i]
-            smallestIndex = i
         end
         i = i + 1
     end
-    i = 0
-    unsorted_array[smallestIndex] = smallest
-    unsorted_array[i] = unsorted_array[smallestIndex]
-
     sorted_array.push(smallest)
-    puts unsorted_array
-    #recursive_sort(unsorted_array,sorted_array)
+
+    newUnsortedArray = []
+    for it in unsorted_array do
+        if it != smallest
+            newUnsortedArray.push(it)
+        end
+    end
+    puts newUnsortedArray
 
     return sorted_array
 end

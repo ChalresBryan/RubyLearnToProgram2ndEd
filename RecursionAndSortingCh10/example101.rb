@@ -8,5 +8,6 @@ def factorial num
         num * factorial(num-1)
     end
 end
+
 puts factorial(3)
 puts factorial(5)
