@@ -1,5 +1,5 @@
 # The filename doesn't have to end with ".txt", but since it is valid text, why not?
-filename = 'ListerQuote.txt'
+filename = 'ex1.txt'
 test_string = 'I promise that I swear absolutely that ' + 'I will never mention gazpacho soup again.'
 
 # The 'w' here is for write-access to the file, since we are trying to write to it.

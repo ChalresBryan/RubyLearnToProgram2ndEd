@@ -1,0 +1,6 @@
+puts
+
+=begin
+=end
+
+puts
